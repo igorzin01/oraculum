@@ -25,7 +25,7 @@ def clear_session_id():
 def load_llm():
     """Configura o pipeline de LLM com suporte a RAG"""
     prompt = ChatPromptTemplate.from_messages([
-        ("system", """Você é um assistente especialista que utiliza o seguinte contexto para responder perguntas:
+        ("system", """Você é um assistente especialista do IPEA  que utiliza o seguinte contexto para responder perguntas:
 
         {context}
 
